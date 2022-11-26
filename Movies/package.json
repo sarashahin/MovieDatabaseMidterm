@@ -1,0 +1,13 @@
+{
+  "name": "Movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mustache-express": "*",
+    "mysql2": "*"
+  }
+}

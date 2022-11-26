@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Missing Actors</title>
+  </head>
+	<body>
+		<form action="/" method="POST">
+			<table>
+				{{#data}}
+				<tr><td>{{Actor1}}<input type="hidden" name="name{{i}}" value="{{Actor1}}"></input></td>
+					<td><input type="text" name="dob{{i}}" pattern="1[0-9]{3}-[01][0-9]-[0-3][0-9]"/></td>
+					<td><input type="text" name="gender{{i}}" /></td>
+				</tr>
+				{{/data}}
+			</table>
+			<input type="submit">
+		</form>
+	</body>
+</html>
